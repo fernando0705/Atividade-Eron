@@ -1,15 +1,17 @@
 programa {
   funcao inicio() {
-    real numero1, numero2, resultado
+    real multiplicacao, soma, subtracao, n2, n1
+    escreva("Digite o primeiro valor: \n")
+    leia(n1)
+    escreva("Digite o Segundo número: \n")
+    leia(n2)
 
-    escreva("Forneça o primeiro número: ")
-    leia(numero1)
-    escreva("Forneça o segundo número: ")
-    leia(numero2)
+    multiplicacao = n1 * n2
+    soma = n1 + n2
+    subtracao = n1 - n2
 
-    resultado = numero1 - numero2
-
-    escreva(numero1, " - ", numero2, " = ", resultado)
-    escreva(resultado)
+    escreva("A soma dos número escolhidos é: ", soma)
+    escreva("\nA subtração dos números escolhidos é: ", subtracao)
+    escreva("\nA multiplicação dos números escolhidos é: ", multiplicacao)
   }
 }
